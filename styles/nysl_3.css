@@ -302,6 +302,7 @@ select{
     background-color: lightblue;
     
 }
+
 .flexcontainer {
     
 }
@@ -319,8 +320,6 @@ select{
     position: relative;
     left: 20%;
 }
-
-
 
 .ruleh3 {
     text-align: left;
@@ -373,13 +372,11 @@ select{
 }
 
 .gameinfo {
+    height: 35vw;
+    overflow: scroll;
     background: RGBA(230, 227, 243, 0.59);
     
 }
-
-
-
-
 
 .submitbutton:hover {
     width: 200px; 
@@ -402,12 +399,12 @@ select{
     to {font-size: xx-large;}
 }
 
-
 @keyframes spin_nav {
     100% 
     { transform: rotate(360deg);   
         transform:rotate(360deg); }
     }
+
 .sticky_title_rulepage {
     display: flex;
     flex-direction: row;
@@ -421,8 +418,6 @@ select{
     background-color:rgb(234, 135, 35);
     color: rgb(163, 30, 30);
 }
-
-
 
 .p_content_index {
     text-align: center;
@@ -440,9 +435,14 @@ select{
     text-align: center;
 }
 
-
 .content_contact_img {
     text-align: center;
 }
-
-
+.Img2_gameinfo {
+    position: absolute;
+    width: 50px;
+    height: 340%   ;
+    background-image: url(../images/leftimage.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
