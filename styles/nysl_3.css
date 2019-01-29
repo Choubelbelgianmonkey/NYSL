@@ -427,7 +427,7 @@ select{
 .p_content_contact {
     text-align: center;
 }
-
+zz
 .content_contact_img {
     text-align: center;
 }
@@ -448,4 +448,14 @@ select{
     position:relative;
     top: 36%;
     
+}
+
+.shortRowSize {
+    position: relative;
+    top: 25%;
+}
+
+.jerseyRowSize {
+    position: relative;
+    top: 10%;
 }
