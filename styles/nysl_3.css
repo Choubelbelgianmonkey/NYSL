@@ -162,8 +162,6 @@ h3{
     
 }
 
-
-
 h1{
     text-align: center;
     font: bold;
@@ -232,9 +230,10 @@ fieldset{
     border-bottom-style: none;
     border-top-style:none;
     border-left-style:none;
-    border-right-style:none; 
- 
+    border-right-style:none;  
 }
+
+.fieldset{ width: 80%;}
 
 h4{
         font-weight: bold;
@@ -277,12 +276,6 @@ h4{
 .rowsize p{
     margin: 0; 
     text-align: left;
-}
-
-.fieldset{
-    width: 80%;
-    
-    
 }
 
 .submitbutton{
@@ -372,7 +365,7 @@ select{
 }
 
 .gameinfo {
-    height: 35vw;
+    height: 500px;
     overflow: scroll;
     background: RGBA(230, 227, 243, 0.59);
     
@@ -438,11 +431,21 @@ select{
 .content_contact_img {
     text-align: center;
 }
+
 .Img2_gameinfo {
     position: absolute;
+    padding-bottom: 5%;
     width: 50px;
-    height: 340%   ;
+    min-height: 1650px;
+    height: 100%;
     background-image: url(../images/leftimage.png);
     background-size: contain;
     background-repeat: repeat;
+}
+
+.fieldset_short {
+    width: 80%;
+    position:relative;
+    top: 36%;
+    
 }
